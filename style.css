@@ -678,10 +678,10 @@ span {
 }
 @media(max-width: 480px){
     .navigation{
-        margin-left: -23rem;
+        margin-left: -20rem;
     }
     .box-info{
-        margin-left: -2rem;
+        margin-left: -4rem;
     }
     .bg-box .bg{
         width: 480px;
