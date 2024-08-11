@@ -600,9 +600,9 @@ span {
     .servicio{
         padding-bottom: 7rem;
     }
-    .servicio-content {
+    /*.servicio-content {
         flex-direction: column;
-    }
+    } */
 
     .servicio-box {
         width: 90%;
@@ -688,6 +688,11 @@ span {
     }
     #logo-proto{
         margin-left: -5rem;
+    }
+    .list-info p {
+        width: 360px;
+        padding-left: 4rem;
+        font-size: 12px;
     }
 
 }
