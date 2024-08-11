@@ -706,3 +706,7 @@ span {
         overflow-x: hidden;
     }
 }
+@media(min-width: 440px){
+    .navigation{
+        margin-left: -23rem;
+    }
