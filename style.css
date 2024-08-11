@@ -698,5 +698,9 @@ span {
         padding-left: 4rem;
         font-size: 12px;
     }
+    .acerca{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
 
 }
