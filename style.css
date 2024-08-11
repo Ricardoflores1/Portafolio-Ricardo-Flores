@@ -702,5 +702,7 @@ span {
         flex-direction: column;
         margin: 5rem 4rem;
     }
-
+    .html{
+        overflow-x: hidden;
+    }
 }
