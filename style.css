@@ -419,12 +419,15 @@ span {
     margin-bottom: 20px;
 }
 .navigation { 
-    position: relative;
-    bottom: 7%;
-    top: 80%;
-    left: 94.5%;
+   position: absolute;
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     transform: translateX(-50%);
-    margin-bottom: 20px;
 }
 .navigation span {
     display: inline-flex;
@@ -486,6 +489,7 @@ span {
     background-color: #000000;
 }
 .contacto h2 { 
+    margin-top: 40px;
     margin-bottom: 3rem;
     color: white;
 }
@@ -687,7 +691,14 @@ span {
 }
 @media(max-width: 480px){
     .navigation{
-        margin-left: -19rem;
+        position: absolute;
+        width: 100%;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
     .box-info{
         margin-left: -5rem;
