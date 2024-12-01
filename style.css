@@ -680,6 +680,11 @@ span {
         margin: 5rem 4rem;
     }
 }
+@media (max-width: 768px) {
+    #trabajos .contenedor {
+        flex-direction: column;
+    }
+}
 @media(max-width: 480px){
     .navigation{
         margin-left: -19rem;
