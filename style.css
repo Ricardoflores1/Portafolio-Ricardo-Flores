@@ -421,7 +421,7 @@ span {
 .navigation { 
    position: absolute;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 760px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
